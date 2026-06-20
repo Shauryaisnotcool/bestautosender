@@ -14,7 +14,7 @@ CHANNEL_ID = os.getenv("DISCORD_CHANNEL_ID", "").strip().strip('"').strip("'")
 PORT = int(os.getenv("PORT", 8080))
 
 # Message interval set to exactly 60 seconds
-MSG_INTERVAL = 65
+MSG_INTERVAL = 100
 
 def get_headers():
     return {
